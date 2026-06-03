@@ -1,3 +1,5 @@
+<img width="1152" height="648" alt="tela inicial" src="https://github.com/user-attachments/assets/b581167f-b97a-4ced-a94d-b4e2f81006d2" />
+<img width="1152" height="653" alt="menu" src="https://github.com/user-attachments/assets/a42bfe5b-ca57-4a3b-8683-f2a6bb507075" />
 # Suporte
 
 Projeto de scripts e utilitários para suporte e implantação.
