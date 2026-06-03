@@ -33,6 +33,24 @@ Exemplos de scripts em `tools/`:
 - Windows
 - PowerShell (v5+ recomendado)
 
+## Instalar o oscdmin
+
+Instruções para obter e usar o programa `oscdmin` (utilitário usado para manipular/gerar ISOs neste projeto):
+
+- Baixe o executável `oscdmin` do fornecedor oficial ou do repositório onde ele é distribuído.
+- Coloque o arquivo executável em `Bin\` em `Repositorio\`.
+- Garanta permissões de execução e, se necessário, ajuste a política do PowerShell:
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+
+
+```
+.\Bin\oscdmin.exe
+```
+
 ## Como usar
 
 1. Abra um terminal PowerShell na raiz do projeto.
@@ -54,13 +72,6 @@ MenuSuporte.bat
 .\tools\make_test_copy.ps1
 ```
 
-## Contribuição
 
-Abra uma issue para discutir mudanças ou envie um pull request com pequenas alterações e descrições claras.
 
-## Licença
 
-Sem licença especificada. Adicione um arquivo `LICENSE` se desejar aplicar uma licença.
-
----
-Gerado automaticamente em 2026-06-02.
